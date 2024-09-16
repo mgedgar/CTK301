@@ -1,0 +1,49 @@
+a {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color:yellow ;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+h5 {
+    color: red;
+}
+
+#sky {
+    background-color: rgb(155, 170, 249);
+}
+
+.orange {
+    color: orange;
+}
+
+#red {
+    color: red;
+}
+
+#mint {
+    background-color:lightgreen;
+}
+
+#yellow {
+    background-color: yellow;
+}
