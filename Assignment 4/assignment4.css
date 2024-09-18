@@ -1,0 +1,44 @@
+#two {
+    background-color: rgb(127, 157, 214);
+}
+
+#three {
+    background-color: rgb(255, 185, 208);
+}
+
+.emphasis {
+    font-style: italic;
+    color: black;
+}
+
+h1 {
+    color: palegreen;
+    background-color: rgb(78, 151, 96);
+}
+
+h2 {
+    color: hotpink;
+    background-color: rgb(255, 213, 230);
+}
+
+h3 {
+    color: powderblue;
+    background-color: darkcyan;
+}
+
+p {
+    color: aliceblue;
+    background-color: cadetblue;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
