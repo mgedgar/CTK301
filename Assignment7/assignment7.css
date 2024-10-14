@@ -1,0 +1,165 @@
+h1, h2 {
+    color: rgb(147, 207, 249);
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    grid-column: span 6;
+}
+
+h1 a {
+    display: block;
+    color: lightskyblue;
+    font-style: italic;
+    font-family: arial, helvetica;
+    text-decoration: none;
+    background-image: linear-gradient(to top darkblue, blue, rgb(65, 141, 188));
+    padding: 30px;
+}
+
+h1 a:hover {
+    color: white;
+}
+
+h2 {
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+    border-bottom: 3px solid darkblue;
+    margin: 5px;
+    color: darkblue;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid darkblue;
+    background-color: darkblue;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+  }
+
+  header {
+    grid-column: span 6;
+  }
+
+  body {
+    background-color: aliceblue;
+  }
+
+  main {
+    grid-column: span 4;
+    padding: 10px;
+    background-color: white;
+  }
+
+  p {
+    margin: 15px;
+    padding: 5px;
+    font-family: Georgia;
+  }
+
+  footer {
+    background-color: red;
+    border-top: 5px solid darkblue;
+    grid-column: span 6;
+    padding: 6px 0px 5px 10px;
+  }
+
+nav {
+    border-bottom: 5px solid darkblue;
+    grid-column: span 6;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    color: lightblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+    font-size: 18px;
+    margin: 0px;
+}
+
+nav a:hover {
+    color: white;
+    background-image: linear-gradient(to bottom darkblue, blue, rgb(65, 141, 188));
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    background-image: linear-gradient(to top darkblue, blue, rgb(65, 141, 188));
+    display: inline-block;
+    width: 240px;
+}
+
+nav p {
+    font-size: 18px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: blue;
+}
+
+.welcome {
+    background-color: lightblue;
+    font-weight: bold;
+    text-align: justify;
+    grid-column: span 2;
+    padding: 10px;
+}
+
+#Beef {
+    margin: 20px 15px 10px 5px;
+    float: left;
+    border: 5px solid darkblue;
+}
+
+.about {
+    background-color: lightblue;
+    font-weight: bold;
+    grid-column: span 2;
+    padding: 20px 10px;
+}
+
+#Bear {
+    margin: 20px 5px 15px 15px;
+    float: right;
+    border: 5px solid darkblue;
+}
+
+.Carmy {
+    grid-column: span 2;
+    background-color: white;
+    padding: 10px;
+}
+
+.Sydney {
+    grid-column: span 2;
+    background-color: white;
+    padding: 10px;
+}
+
+.Richie {
+    grid-column: span 2;
+    background-color: white;
+    padding: 10px;
+}
+
+#workers {
+    margin: 15px 5px 0px 5px;
+    width: 285;
+}
